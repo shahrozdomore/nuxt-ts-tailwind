@@ -5,24 +5,6 @@
       <h1 class="title text-red-800">
         nuxt-ts-tailwind
       </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-        <h1 class="text-red-800">Hello</h1>
       </div>
     </div>
   </div>
