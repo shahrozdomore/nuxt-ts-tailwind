@@ -1,5 +1,11 @@
 # Nuxt, Typescript and Tailwind 2
 
+## With the features included
+
+1. [nuxt-property-decorator](https://github.com/nuxt-community/nuxt-property-decorator)
+2. [vuex-module-decorators](https://github.com/championswimmer/vuex-module-decorators)
+3. [vuex-class](https://github.com/ktsn/vuex-class/)
+
 ## Build Setup
 
 ```bash
@@ -18,3 +24,7 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## Resources
+
+[Nuxt.js apps fully in TypeScript](https://blog.logrocket.com/how-to-set-up-and-code-nuxt-js-apps-fully-in-typescript/)
