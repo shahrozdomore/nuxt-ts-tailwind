@@ -1,4 +1,4 @@
-# nuxt-ts-tailwind
+# Nust, Typescript and Tailwind 2
 
 ## Build Setup
 
