@@ -23,8 +23,8 @@ $ yarn start
 $ yarn generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
-
 ## Resources
 
 [Nuxt.js apps fully in TypeScript](https://blog.logrocket.com/how-to-set-up-and-code-nuxt-js-apps-fully-in-typescript/)
+
+[Nuxt.js docs](https://nuxtjs.org).
