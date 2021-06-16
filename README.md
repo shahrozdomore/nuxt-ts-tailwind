@@ -28,3 +28,40 @@ $ yarn generate
 [Nuxt.js apps fully in TypeScript](https://blog.logrocket.com/how-to-set-up-and-code-nuxt-js-apps-fully-in-typescript/)
 
 [Nuxt.js docs](https://nuxtjs.org).
+
+<table style="width:100%">
+<tr>
+<tr><td colspan=2>
+
+## Class based components
+
+</td></tr>
+<tr>
+<th> Class API based </th>
+<th> Options API based (vanilla) </th>
+</tr>
+<tr>
+<td>
+
+```javascript
+//Typescript code
+<script lang="ts">
+  import {(Component, Vue)} from 'nuxt-property-decorator' @Component export
+  default class MyStore extends Vue {}
+</script>
+```
+
+</td>
+<td>
+
+```javascript
+<script>
+export default {
+name: 'MyStore'
+}
+</script>
+```
+
+</td>
+</tr>
+</table>
