@@ -29,11 +29,12 @@ $ yarn generate
 
 [Nuxt.js docs](https://nuxtjs.org).
 
+## Class based components
 <table style="width:100%">
 <tr>
 <tr><td colspan=2>
 
-## Class based components
+## Initializing a class
 
 </td></tr>
 <tr>
@@ -46,8 +47,10 @@ $ yarn generate
 ```javascript
 //Typescript code
 <script lang="ts">
-  import {(Component, Vue)} from 'nuxt-property-decorator' @Component export
-  default class MyStore extends Vue {}
+  import {(Component, Vue)} from 'nuxt-property-decorator'  
+
+  @Component  
+  export default class MyStore extends Vue {}
 </script>
 ```
 
@@ -58,6 +61,49 @@ $ yarn generate
 <script>
 export default {
 name: 'MyStore'
+}
+</script>
+```
+
+</td>
+</tr><td colspan=2>
+
+## Importing a component
+
+</td></tr>
+<tr>
+<th> Class API based </th>
+<th> Options API based (vanilla) </th>
+</tr>
+<tr>
+<td>
+
+```javascript
+//Typescript code
+<script lang="ts">
+import Tile from '@/components/Tile.vue'
+import { Vue, Component } from 'nuxt-property-decorator'  
+
+@Component({
+  components: {
+    Tile
+  }
+})
+export default class MyStore extends Vue {}
+</script>
+```
+
+</td>
+<td>
+
+```javascript
+<script>
+import Tile from '@/components/Tile.vue'
+export default {
+  name: 'MyStore',
+  components: {
+    Tile
+  }
 }
 </script>
 ```
