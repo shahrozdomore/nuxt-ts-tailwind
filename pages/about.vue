@@ -1,6 +1,7 @@
 <template>
-  <div>
-    <h1 class="text-white">About page</h1>
+  <div class="container mx-auto">
+    <h1>About page</h1>
+    <Counter />
   </div>
 </template>
 
@@ -8,7 +9,7 @@
 import { Component, Vue } from "nuxt-property-decorator";
 
 @Component({})
-export default class MyClass extends Vue {}
+export default class About extends Vue {}
 </script>
 
 <style scoped lang="scss"></style>
